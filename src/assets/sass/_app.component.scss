@@ -1,0 +1,44 @@
+app-root {
+  mat-card {
+    mat-card-title {
+      p {
+        text-align: center;
+      }
+    }
+    width: 457px;
+
+    input {
+      height: 56px;
+      width: 100%;
+      padding: 0 10px;
+      text-overflow: ellipsis;
+      box-sizing: border-box;
+      box-shadow: none;
+      font-weight: 400;
+      font-variant: normal;
+      direction: ltr;
+      color: #000;
+    }
+  }
+  button {
+    width: 100%;
+    height: 48px;
+    background-color: $color-blue;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    font-variant: normal;
+    border-radius: 25px;
+
+    #signup {
+      background-color: #fff;
+      color: #0070ba;
+    }
+  }
+  a {
+    color: #0070ba;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+  }
+}
